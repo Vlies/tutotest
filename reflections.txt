@@ -1,2 +1,9 @@
-git diff old new
-
+git diff <old> <new>
+	+ added
+	- removed
+git diff (no args)
+	staging area ('old') vs. working dir ('new' with uncommitted changes)
+git diff --staged
+	repo(old) vs staging area(new)
+git reset --hard
+	discard changes
